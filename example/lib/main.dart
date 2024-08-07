@@ -16,6 +16,7 @@ class _PrimeNumberCheckerAppState extends State<PrimeNumberCheckerApp> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }

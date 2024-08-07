@@ -1,7 +1,7 @@
 name: isprime
 description: "A flutter package for checking an integer number is prime or not."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Nahin-CDR/isprime.git
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
