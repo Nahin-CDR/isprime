@@ -1,39 +1,40 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# A Dart package for prime number checking
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+The is_prime_number package offers a simple and efficient way to check if a given number is prime. Designed for Dart and Flutter developers, this package provides a straightforward function that takes an integer as input and returns a boolean indicating whether the number is a prime number. It's optimized for performance and ease of use, making it an ideal choice for applications requiring prime number validation, mathematical computations, and educational purposes. Incorporating is_prime_number into your project will streamline your development process when dealing with number theory-related tasks.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+# Authors
+@nahindcoder
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Features
+Simple Interface: A straightforward function that accepts an integer and returns a boolean.
+Performance Optimized: Uses an efficient algorithm for prime checking, suitable for large numbers.
+Cross-Platform: Works with any Dart project including Flutter apps, web, and backend.
+Lightweight: No external dependencies, making it easy to integrate into any project.
+Comprehensive Documentation: Includes detailed usage instructions and examples.
 
-## Features
+# FAQ
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+1.Can is_prime_number handle very large numbers?
 
-## Getting started
+A: The package is optimized for performance but is subject to Dart's limitations on integer sizes. For extremely large numbers, performance may vary.
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+2. Is is_prime_number suitable for educational purposes?
 
-## Usage
+A: Absolutely! It's a great tool for learning about prime numbers and algorithms in a practical setting.
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+3. How can I contribute to is_prime_number?
 
-```dart
-const like = 'sample';
+A: Contributions can range from bug fixes, feature additions, documentation improvements, and more. See the Contributing section above for how to get started.
+
+Demo
+To see is_prime_number in action, here is a simple Flutter app snippet:
+
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+void main() {
+  int testNumber = 29;
+  
+  bool isPrime = isPrime(testNumber);
+  print('$testNumber is a prime number: $isPrime');
+}
+```
