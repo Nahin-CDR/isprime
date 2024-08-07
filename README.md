@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
 
   void checkPrime(int value)
   {
-    print("${primeChecker.isPrime(9)}");
+    print("${primeChecker.isPrime(value)}");
     setState(() {
       inputNumber = value;
     });
