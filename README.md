@@ -3,8 +3,7 @@
 The isprime package offers a simple and efficient way to check if a given number is prime. Designed for Dart and Flutter developers, this package provides a straightforward function that takes an integer as input and returns a boolean indicating whether the number is a prime number. It's optimized for performance and ease of use, making it an ideal choice for applications requiring prime number validation, mathematical computations, and educational purposes. Incorporating isprime into your project will streamline your development process when dealing with number theory-related tasks.
 
 # Authors
-@nahin.cdr@gmail.com
-
+<a href = 'https://www.linkedin.com/in/nazmul-haque-nahin-ba6189173/'> Nazmul Haque Nahin</a> 
 # Features
 Simple Interface: A straightforward function that accepts an integer and returns a boolean.
 Performance Optimized: Uses an efficient algorithm for prime checking, suitable for large numbers.
